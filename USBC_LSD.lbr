@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -59,30 +59,30 @@
 <library>
 <packages>
 <package name="DX07S024WJ1">
-<smd name="GND4" x="-2.75" y="-2.2" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="P-" x="-2.25" y="-2.2" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="P+" x="-1.75" y="-2.2" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="T4" x="-1.25" y="-2.2" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="B8" x="-0.75" y="-2.2" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="B7" x="-0.25" y="-2.2" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="B6" x="0.25" y="-2.2" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="B5" x="0.75" y="-2.2" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="T3" x="1.25" y="-2.2" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="B3" x="1.75" y="-2.2" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="B2" x="2.25" y="-2.2" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="GND3" x="2.75" y="-2.2" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="GND1" x="-2.75" y="2.35" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="-12V" x="-2.25" y="2.35" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="+12V" x="-1.75" y="2.35" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="T1" x="-1.25" y="2.35" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="+I" x="-0.75" y="2.35" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="CHECK1" x="-0.25" y="2.35" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="CHECK2" x="0.25" y="2.35" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="-I" x="0.75" y="2.35" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="T2" x="1.25" y="2.35" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="HALL" x="1.75" y="2.35" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="01" x="2.25" y="2.35" dx="1.4" dy="0.12" layer="1" rot="R90"/>
-<smd name="GND2" x="2.75" y="2.35" dx="1.4" dy="0.12" layer="1" rot="R90"/>
+<smd name="GND4" x="-2.75" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="P-" x="-2.25" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="P+" x="-1.75" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="T4" x="-1.25" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="B8" x="-0.75" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="B7" x="-0.25" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="B6" x="0.25" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="B5" x="0.75" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="T3" x="1.25" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="B3" x="1.75" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="B2" x="2.25" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="GND3" x="2.75" y="-2.7" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="GND1" x="-2.75" y="2.85" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="-12V" x="-2.25" y="2.85" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="+12V" x="-1.75" y="2.85" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="T1" x="-1.25" y="2.85" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="+I" x="-0.75" y="2.85" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="CHECK1" x="-0.25" y="2.85" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="CHECK2" x="0.25" y="2.85" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="-I" x="0.75" y="2.85" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="T2" x="1.25" y="2.85" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="HALL" x="1.75" y="2.85" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="01" x="2.25" y="2.85" dx="1.4" dy="0.254" layer="1" rot="R90"/>
+<smd name="GND2" x="2.75" y="2.85" dx="1.4" dy="0.254" layer="1" rot="R90"/>
 <circle x="-2.75" y="1.75" radius="0.22360625" width="0" layer="21"/>
 <wire x1="-5.5" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="51"/>
 <wire x1="-3.5" y1="3.5" x2="-3.5" y2="2.5" width="0.127" layer="51"/>
@@ -104,7 +104,7 @@
 <text x="-3.6" y="-5.8" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-3.5" y="1.35" radius="0.3" width="0.127" layer="1"/>
 <circle x="3.5" y="1.35" radius="0.3" width="0.127" layer="1"/>
-<smd name="P$1" x="0" y="2.88" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$1" x="0" y="3.38" dx="1.27" dy="0.762" layer="1" rot="R90"/>
 <rectangle x1="3.5" y1="2.67" x2="4.8" y2="3.47" layer="1"/>
 <rectangle x1="-4.8" y1="2.67" x2="-3.5" y2="3.47" layer="1"/>
 <rectangle x1="3.5" y1="-3.47" x2="4.8" y2="-2.67" layer="1"/>
